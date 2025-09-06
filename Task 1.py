@@ -1,8 +1,10 @@
-#Task 2 : Using loop to iterate over numbers from 1 to 50.
+#Task 1 : Performing Basic Mathemathical Operation
 
-total_sum = 0
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("Addition: ", num1 + num2)
+print("Subtraction: ", num1 - num2)
+print("Multiplication: ", num1 * num2)
+print("Division: ", num1 / num2)
 
-for num in range(1, 51):    #using i for number
-    total_sum += num
-    print("The sum of numbers from 1 to 50 is: ", total_sum)
 
