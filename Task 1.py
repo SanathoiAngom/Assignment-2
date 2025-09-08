@@ -1,10 +1,6 @@
-#Task 1 : Performing Basic Mathemathical Operation
-
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
-print("Addition: ", num1 + num2)
-print("Subtraction: ", num1 - num2)
-print("Multiplication: ", num1 * num2)
-print("Division: ", num1 / num2)
-
-
+#Task 1 : to Check if a number is even or odd
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(num, "is an even number")
+else:
+    print(num, "is an odd number")
